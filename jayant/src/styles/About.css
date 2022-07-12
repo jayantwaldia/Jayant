@@ -1,0 +1,25 @@
+.Main {
+    display: block;
+    color: #FFFFFF;
+    margin: 150px auto;
+    max-width: 500px;
+    min-width: 250px;
+    font-family: Inter;
+}
+
+.MyName {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.Description {
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(181, 181, 181);
+}
+
+.Highlight {
+    font-weight: 700;
+    animation: 4s ease 0s infinite normal none running XSvSn;
+}
