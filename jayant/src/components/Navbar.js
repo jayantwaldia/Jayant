@@ -9,13 +9,19 @@ function Navbar() {
     <div className="Nav">
       <div className="Pages">
         <div className="Page">
-          <a>home</a>
+          <a href="#home" id="highlight" className="Home">
+            home
+          </a>
         </div>
         <div className="Page">
-          <a>blog</a>
+          <a href="#blog" id="highlight">
+            blog
+          </a>
         </div>
         <div className="Page">
-          <a>library</a>
+          <a href="#library" id="highlight">
+            library
+          </a>
         </div>
       </div>
       <div className="Links">
