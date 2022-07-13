@@ -22,7 +22,7 @@
 
 .Highlight {
     font-weight: 700;
-    animation: color-change 4s infinite;
+    animation: color-change 5s infinite;
 }
 
 
@@ -32,15 +32,15 @@
     }
 
     25% {
-        color: rgb(208, 255, 235);
+        color: rgb(190, 248, 223);
     }
 
     50% {
-        color: rgb(208, 227, 255);
+        color: rgb(192, 216, 252);
     }
 
     75% {
-        color: rgb(255, 178, 182);
+        color: rgb(252, 162, 166);
     }
 
     100% {
