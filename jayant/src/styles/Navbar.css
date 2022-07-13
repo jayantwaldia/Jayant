@@ -4,13 +4,14 @@
     padding: 20px;
     font-weight: 700;
     font-family: 'Sora', sans-serif;
+    justify-content: space-between
 }
 
-.Pages {
+.Pages,
+.Links {
     display: flex;
     justify-content: center;
     align-items: center;
-
     column-gap: 20px;
 }
 
@@ -18,4 +19,10 @@
     width: auto;
     height: auto;
     cursor: pointer;
+}
+
+
+.Links {
+    column-gap: 10px;
+
 }
