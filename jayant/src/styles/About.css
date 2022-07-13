@@ -1,10 +1,11 @@
 .Main {
-    display: block;
     color: #FFFFFF;
-    margin: 150px auto;
-    max-width: 500px;
-    min-width: 250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
     font-family: Inter;
+    padding: 20px;
+
 }
 
 .MyName {
@@ -21,5 +22,28 @@
 
 .Highlight {
     font-weight: 700;
-    animation: 4s ease 0s infinite normal none running XSvSn;
+    animation: color-change 4s infinite;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: rgb(208, 255, 235);
+    }
+
+    50% {
+        color: rgb(208, 227, 255);
+    }
+
+    75% {
+        color: rgb(255, 178, 182);
+    }
+
+    100% {
+        color: white;
+    }
 }
