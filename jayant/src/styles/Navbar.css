@@ -29,7 +29,6 @@
     text-decoration: none;
 }
 
-
 #highlight:hover,
 #highlight:target,
 #highlight:active,
@@ -37,9 +36,6 @@
     color: white
 }
 
-
-
 .Links {
     column-gap: 10px;
-
 }
