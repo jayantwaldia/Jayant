@@ -3,7 +3,6 @@
     display: flex;
     padding: 20px;
     font-weight: 700;
-    font-family: 'Sora', sans-serif;
     justify-content: space-between
 }
 
@@ -21,6 +20,7 @@
     column-gap: 20px;
 }
 
+.Link,
 .Page a {
     width: auto;
     height: auto;

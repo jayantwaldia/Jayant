@@ -1,15 +1,15 @@
 .Main {
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
     margin: auto;
     flex-direction: column;
-    font-family: 'Sora', sans-serif;
     padding: 20px;
 
 }
 
 .MyName {
     font-size: 28px;
+    color: white;
     font-weight: 600;
 }
 

@@ -24,6 +24,7 @@ function Link({ name, href, imageSrc }) {
   );
 }
 
+
 export default function Navbar() {
   return (
     <div className="Nav">
@@ -33,9 +34,9 @@ export default function Navbar() {
         <Page name={"library"} source={"#library"} id={"highlight"} />
       </div>
       <div className="Links">
-        <Link href={"https://www.linkedin.com/in/jayantwaldia/"} imageSrc={linkedin}/>
-        <Link href={"https://github.com/jayantwaldia/"} imageSrc={github} />
-        <Link href={"https://twitter.com/jayantwaldia"} imageSrc={twitter} />
+        <Link name= {"Jayant's LinkedIn"} href={"https://www.linkedin.com/in/jayantwaldia/"} imageSrc={linkedin}/>
+        <Link name= {"Jayant's Github"} href={"https://github.com/jayantwaldia/"} imageSrc={github} />
+        <Link name= {"Jayant's Twitter"} href={"https://twitter.com/jayantwaldia"} imageSrc={twitter} />
       </div>
     </div>
   );

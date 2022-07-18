@@ -1,0 +1,25 @@
+.Projects {
+    color: white;
+    justify-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Decription {
+    font-size: medium;
+    color: rgb(181, 181, 181);
+}
+
+.Project {
+    margin-top: 22px;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    border-radius: 10px;
+}
