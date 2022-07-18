@@ -4,7 +4,7 @@ import { projectData } from "../data/projectData";
 
 function Project() {
   const listItems = projectData.map((aboutProject) => (
-    <li key={aboutProject.id}>
+    <li key={aboutProject.id} className="Project">
       <img src={aboutProject.thumbnail} alt={aboutProject.name} />
       <p>
         <b>{aboutProject.name}</b>
@@ -13,7 +13,7 @@ function Project() {
     </li>
   ));
 
-  return <ul>{listItems}</ul>;
+  return <ul className="">{listItems}</ul>;
 }
 
 export default function Projects() {
@@ -23,9 +23,7 @@ export default function Projects() {
       <p className="Decription">
         Find below some valuable projects that I worked on
       </p>
-      <div className="Project">
-        <Project />
-      </div>
+      <Project />
     </div>
   );
 }
