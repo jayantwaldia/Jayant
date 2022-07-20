@@ -5,7 +5,8 @@
     padding: 20px;
     font-weight: 700;
     border-radius: 20px;
-    justify-content: space-between
+    justify-content: space-between;
+    column-gap: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -19,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 10px;
 }
 
 .Link,
@@ -36,8 +37,4 @@
 #highlight:active,
 #highlight:focus {
     color: white
-}
-
-.Links {
-    column-gap: 15px;
 }
