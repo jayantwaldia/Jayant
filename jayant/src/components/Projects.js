@@ -4,16 +4,16 @@ import { projectData } from "../data/projectData";
 
 function Project() {
   const listItems = projectData.map((aboutProject) => (
-    <li key={aboutProject.id} className="Project">
+    <div key={aboutProject.id} className="Project">
       <img src={aboutProject.thumbnail} alt={aboutProject.name} />
       <p>
         <b>{aboutProject.name}</b>
         {" " + aboutProject.desc + " "}
       </p>
-    </li>
+    </div>
   ));
 
-  return <ul className="">{listItems}</ul>;
+  return <div className="ProjectGrid">{listItems}</div>;
 }
 
 export default function Projects() {

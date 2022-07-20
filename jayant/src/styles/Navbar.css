@@ -1,22 +1,23 @@
 .Navbar {
     position: sticky;
-    padding: 10px;
-    background-color: black;
+    padding: 20px 0px 5px 0px;
     top: 0;
-    max-width: 600px;
+    max-width: 750px;
     margin: auto;
+    background-color: black;
 }
 
 .Nav {
     display: flex;
     padding: 20px;
+    margin-top: 20px;
     font-weight: 700;
     border-radius: 20px;
     justify-content: space-between;
     align-items: center;
     column-gap: 14px;
     color: white;
-    background-color: rgb(24, 24, 24);
+    background-color: black;
 }
 
 @media only screen and (max-width: 600px) {
