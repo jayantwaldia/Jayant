@@ -21,9 +21,9 @@
     margin-top: 22px;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(10, 10, 10);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 ul {
@@ -33,17 +33,20 @@ ul {
 
 img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .ProjectGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    row-gap: 10px;
+
 }
 
 @media only screen and (max-width: 600px) {
     .ProjectGrid {
         grid-template-columns: 1fr;
+        row-gap: 20px;
     }
 }
