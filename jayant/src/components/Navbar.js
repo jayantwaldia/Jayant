@@ -24,19 +24,32 @@ function Link({ name, href, imageSrc }) {
   );
 }
 
-
 export default function Navbar() {
   return (
-    <div className="Nav">
-      <div className="Pages">
-        <Page name={"home"} source={"#home"} id={"highlight"} />
-        <Page name={"blog"} source={"#blog"} id={"highlight"} />
-        <Page name={"library"} source={"#library"} id={"highlight"} />
-      </div>
-      <div className="Links">
-        <Link name= {"Jayant's LinkedIn"} href={"https://www.linkedin.com/in/jayantwaldia/"} imageSrc={linkedin}/>
-        <Link name= {"Jayant's Github"} href={"https://github.com/jayantwaldia/"} imageSrc={github} />
-        <Link name= {"Jayant's Twitter"} href={"https://twitter.com/jayantwaldia"} imageSrc={twitter} />
+    <div>
+      <div className="Nav">
+        <div className="Pages">
+          <Page name={"home"} source={"#home"} id={"highlight"} />
+          <Page name={"blog"} source={"#blog"} id={"highlight"} />
+          <Page name={"library"} source={"#library"} id={"highlight"} />
+        </div>
+        <div className="Links">
+          <Link
+            name={"Jayant's LinkedIn"}
+            href={"https://www.linkedin.com/in/jayantwaldia/"}
+            imageSrc={linkedin}
+          />
+          <Link
+            name={"Jayant's Github"}
+            href={"https://github.com/jayantwaldia/"}
+            imageSrc={github}
+          />
+          <Link
+            name={"Jayant's Twitter"}
+            href={"https://twitter.com/jayantwaldia"}
+            imageSrc={twitter}
+          />
+        </div>
       </div>
     </div>
   );
