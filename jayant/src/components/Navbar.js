@@ -26,7 +26,7 @@ function Link({ name, href, imageSrc }) {
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="Navbar">
       <div className="Nav">
         <div className="Pages">
           <Page name={"home"} source={"#home"} id={"highlight"} />

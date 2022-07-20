@@ -5,11 +5,13 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="Mainview">
+    <>
       <Navbar />
-      <About />
-      <Projects />
-    </div>
+      <div className="Mainview">
+        <About />
+        <Projects />
+      </div>
+    </>
   );
 }
 
