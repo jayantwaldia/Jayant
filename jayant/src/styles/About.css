@@ -11,6 +11,7 @@
     font-size: 28px;
     color: white;
     font-weight: 600;
+    animation: fadeIn 2s;
 }
 
 
@@ -18,6 +19,7 @@
     font-size: 19px;
     font-weight: 400;
     color: rgb(181, 181, 181);
+    animation: fadeIn 2s;
 }
 
 .Highlight {
@@ -25,6 +27,16 @@
     animation: color-change 5s infinite;
 }
 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 @keyframes color-change {
     0% {
