@@ -88,6 +88,7 @@ code {
   top: 0;
   max-width: 700px;
   margin: auto;
+  color: rgb(181, 181, 181);
   background-color: black;
   z-index: 1000;
 }
@@ -124,11 +125,17 @@ code {
   width: auto;
   height: auto;
   cursor: pointer;
-  color: rgb(181, 181, 181);
   text-decoration: none;
 }
 
+.nav-link {
+  color: rgb(181, 181, 181);
+}
 
+.activated {
+  color: white;
+  text-decoration: none;
+}
 
 
 /* ---------------- Projects ----------------*/
@@ -158,6 +165,7 @@ code {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  color: white;
   background-color: rgb(10, 10, 10);
   border-radius: 15px;
 }

@@ -1,14 +1,15 @@
-import { projectData } from "../data/projectData";
+import { projectsList } from "../data/projectsList";
+import Card from "../shared/Card";
 
 function Project() {
-  const listItems = projectData.map((aboutProject) => (
-    <div key={aboutProject.id} className="Project">
-      <img src={aboutProject.thumbnail} alt={aboutProject.name} />
+  const listItems = projectsList.map((project) => (
+    <Card key={project.id}>
+      <img src={project.thumbnail} alt={project.name} />
       <p>
-        <b>{aboutProject.name}</b>
-        {" " + aboutProject.desc + " "}
+        <b>{project.name}</b>
+        {" " + project.desc + " "}
       </p>
-    </div>
+    </Card>
   ));
 
   return <div className="ProjectGrid">{listItems}</div>;

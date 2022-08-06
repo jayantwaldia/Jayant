@@ -1,22 +1,29 @@
-import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";
+import BlogPage from "../pages/BlogPage";
 
 function Page({ name, source, id }) {
   return (
     <div className="Page">
-      <a href={source} id={id} className="Home">
+      <NavLink
+        to={source}
+        className={({ isActive }) =>
+          "nav-link" + (isActive ? " activated" : "")
+        }
+        style={{ textDecoration: "none" }}
+      >
         {name}
-      </a>
+      </NavLink>
     </div>
   );
 }
 
-function Link({ name, href, imageSrc }) {
+function Social({ name, href, imageSrc }) {
   return (
     <div className="Link">
-      <a href={href} target="_blank">
+      <a href={href} target="_blank" rel="noreferrer">
         <img src={imageSrc} alt={name} />
       </a>
     </div>
@@ -28,22 +35,22 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="Nav">
         <div className="Pages">
-          <Page name={"home"} source={"#home"} id={"highlight"} />
-          <Page name={"blog"} source={"#blog"} id={"highlight"} />
-          <Page name={"library"} source={"#library"} id={"highlight"} />
+          <Page name={"home"} source={"/"} />
+          <Page name={"blog"} source={"/blog"} />
+          <Page name={"about"} source={"/about"} />
         </div>
         <div className="Links">
-          <Link
+          <Social
             name={"Jayant's LinkedIn"}
             href={"https://www.linkedin.com/in/jayantwaldia/"}
             imageSrc={linkedin}
           />
-          <Link
+          <Social
             name={"Jayant's Github"}
             href={"https://github.com/jayantwaldia/"}
             imageSrc={github}
           />
-          <Link
+          <Social
             name={"Jayant's Twitter"}
             href={"https://twitter.com/jayantwaldia"}
             imageSrc={twitter}

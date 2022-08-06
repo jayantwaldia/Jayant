@@ -1,9 +1,7 @@
-import React from "react";
+import Card from "../shared/Card";
 
 function BlogPage() {
-  return (
-    <div className="Page">Bs</div>
-  );
+  return <Card>Blog Page</Card>;
 }
 
 export default BlogPage;
