@@ -12,7 +12,6 @@ function Page({ name, source, id }) {
         className={({ isActive }) =>
           "nav-link" + (isActive ? " activated" : "")
         }
-        style={{ textDecoration: "none" }}
       >
         {name}
       </NavLink>

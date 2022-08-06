@@ -6,7 +6,7 @@ function Project() {
     <Card key={project.id}>
       <img src={project.thumbnail} alt={project.name} />
       <p>
-        <b>{project.name}</b>
+        <h3>{project.name}</h3>
         {" " + project.desc + " "}
       </p>
     </Card>
