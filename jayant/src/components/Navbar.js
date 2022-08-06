@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Navbar.css";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";

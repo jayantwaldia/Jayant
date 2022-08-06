@@ -11,3 +11,188 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ---------------- About Page-----------------*/
+
+.Main {
+  color: #ffffff;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+.MyName {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  animation: fadeIn 2s;
+}
+
+
+.Description {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(181, 181, 181);
+  animation: fadeIn 2s;
+}
+
+.Highlight {
+  font-weight: 700;
+  animation: color-change 5s infinite;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+
+  25% {
+    color: rgb(190, 248, 223);
+  }
+
+  50% {
+    color: rgb(192, 216, 252);
+  }
+
+  75% {
+    color: rgb(252, 162, 166);
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+
+
+/* ---------------- Navbar ----------------*/
+
+
+.Navbar {
+  position: sticky;
+  padding: 20px 0px 5px 0px;
+  top: 0;
+  max-width: 700px;
+  margin: auto;
+  background-color: black;
+  z-index: 1000;
+}
+
+.Nav {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 14px;
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .Nav {
+    padding: 18px;
+  }
+}
+
+.Pages,
+.Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.Link,
+.Page a {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  color: rgb(181, 181, 181);
+  text-decoration: none;
+}
+
+
+
+
+/* ---------------- Projects ----------------*/
+
+.Projects {
+  color: white;
+  justify-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  animation: fadeIn 2s;
+}
+
+.Title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Decription {
+  font-size: medium;
+  color: rgb(181, 181, 181);
+}
+
+.Project {
+  margin-top: 22px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.ProjectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .ProjectGrid {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

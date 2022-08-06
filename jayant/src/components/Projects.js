@@ -1,5 +1,3 @@
-import React, { Fragment } from "react";
-import "../styles/Projects.css";
 import { projectData } from "../data/projectData";
 
 function Project() {
@@ -21,7 +19,7 @@ export default function Projects() {
     <div className="Projects">
       <p className="Title">▶ Projects</p>
       <p className="Decription">
-        Find below some valuable projects that I worked on
+        Find below some interesting projects that I have worked upon
       </p>
       <Project />
     </div>
