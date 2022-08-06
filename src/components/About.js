@@ -7,7 +7,7 @@ export default function About() {
         <span className="Highlight"> reactjs </span>/
         <span className="Highlight"> angular </span> +
         <span className="Highlight"> typescript </span>
-        as a Frontend Engineer @<span className="Highlight"> virtusa </span>.
+        as an engineer @<span className="Highlight"> virtusa </span>.
       </p>
     </div>
   );
