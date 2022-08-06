@@ -3,7 +3,7 @@ export default function About() {
     <div className="Main">
       <p className="MyName">Jayant Waldia</p>
       <p className="Description">
-        code x design, building web applications with{" "}
+        code x design, building web apps with{" "}
         <span className="Highlight"> reactjs </span>/
         <span className="Highlight"> angular </span> +
         <span className="Highlight"> typescript </span>
