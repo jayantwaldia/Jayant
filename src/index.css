@@ -168,12 +168,12 @@ code {
   align-items: center;
   padding: 15px;
   color: rgb(181, 181, 181);
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(10, 10, 10);
   border-radius: 15px;
 }
 
 .Project:hover {
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(15, 15, 15);
   color: white;
   cursor: pointer;
 }
