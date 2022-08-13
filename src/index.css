@@ -167,9 +167,15 @@ code {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  color: white;
-  background-color: rgb(10, 10, 10);
+  color: rgb(181, 181, 181);
+  background-color: rgb(14, 14, 14);
   border-radius: 15px;
+}
+
+.Project:hover {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  cursor: pointer;
 }
 
 ul {

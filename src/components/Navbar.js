@@ -1,8 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";
-import BlogPage from "../pages/BlogPage";
 
 function Page({ name, source, id }) {
   return (
