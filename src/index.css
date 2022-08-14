@@ -130,8 +130,13 @@ code {
   text-decoration: none;
 }
 
+
 .nav-link {
-  color: rgb(181, 181, 181);
+  color: rgb(190, 190, 190);
+}
+
+.nav-link:hover {
+  color: rgb(225, 225, 225);
 }
 
 .activated {
