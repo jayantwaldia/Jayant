@@ -98,14 +98,14 @@ code {
 .Nav {
   display: flex;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px 10PX;
   font-weight: 700;
   border-radius: 20px;
   justify-content: space-between;
   align-items: center;
   column-gap: 14px;
   color: white;
-  background-color: black;
+  background-color: rgb(10, 10, 10)
 }
 
 @media only screen and (max-width: 600px) {
