@@ -1,3 +1,24 @@
+@font-face {
+  font-family: SpaceGrotesk-Light;
+  src: url(fonts/SpaceGrotesk-Light.otf);
+}
+
+@font-face {
+  font-family: SpaceGrotesk-Regular;
+  src: url(fonts/SpaceGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: SpaceGrotesk-Medium;
+  src: url(fonts/SpaceGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: SpaceGrotesk-Bold;
+  src: url(fonts/SpaceGrotesk-Bold.otf);
+}
+
+
 /* ---------------- About Page-----------------*/
 
 .Main {
@@ -10,19 +31,21 @@
 }
 
 .MyName {
-  font-size: 28px;
+  font-size: 32px;
   color: white;
-  font-weight: 600;
+  font-family: SpaceGrotesk-Regular;
+  font-weight: 400;
   animation: fadeIn 2s;
 }
 
 
 .Description {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
   color: rgb(181, 181, 181);
   line-height: 1.6;
   animation: fadeIn 2s;
+  font-family: SpaceGrotesk-Light;
 }
 
 .Highlight {
@@ -84,14 +107,13 @@
   display: flex;
   padding: 20px;
   margin: 20px 10PX;
-  font-weight: 700;
   border-radius: 20px;
   justify-content: space-between;
   align-items: center;
   column-gap: 14px;
   color: white;
   background-color: rgb(10, 10, 10);
-  font-family: 'Sora', sans-serif;
+  font-family: SpaceGrotesk-Bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -146,11 +168,14 @@
 .Title {
   font-size: 22px;
   font-weight: 600;
+  font-family: SpaceGrotesk-Regular;
 }
 
 .Decription {
   font-size: medium;
   color: rgb(181, 181, 181);
+  font-size: 18px;
+  font-family: SpaceGrotesk-Light;
 }
 
 .Project {
@@ -158,15 +183,15 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
-  color: rgb(181, 181, 181);
-  background-color: rgb(10, 10, 10);
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
+  font-family: SpaceGrotesk-Regular;
 }
 
 .Project:hover {
-  background-color: rgb(15, 15, 15);
-  color: white;
-  cursor: default;
+  background-color: #101111;
 }
 
 ul {

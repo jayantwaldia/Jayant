@@ -18,7 +18,7 @@ function Project() {
 export default function Projects() {
   return (
     <div className="Projects">
-      <p className="Title">▶ Projects</p>
+      <p className="Title">Projects</p>
       <p className="Decription">
         Find below some interesting projects that I have worked upon
       </p>
