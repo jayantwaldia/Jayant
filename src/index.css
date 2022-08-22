@@ -168,14 +168,14 @@
 .Title {
   font-size: 22px;
   font-weight: 600;
-  font-family: SpaceGrotesk-Regular;
+  font-family: SpaceGrotesk-Medium;
 }
 
 .Decription {
   font-size: medium;
   color: rgb(181, 181, 181);
   font-size: 18px;
-  font-family: SpaceGrotesk-Light;
+  font-family: SpaceGrotesk-Regular;
 }
 
 .Project {
