@@ -33,7 +33,7 @@
 .MyName {
   font-size: 32px;
   color: white;
-  font-family: SpaceGrotesk-Regular;
+  font-family: SpaceGrotesk-Medium;
   font-weight: 400;
   animation: fadeIn 2s;
 }
@@ -45,7 +45,7 @@
   color: rgb(181, 181, 181);
   line-height: 1.6;
   animation: fadeIn 2s;
-  font-family: SpaceGrotesk-Light;
+  font-family: SpaceGrotesk-Regular;
 }
 
 .Highlight {
