@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="Main">
-      <p className="MyName">Jayant Waldia</p>
+      <p className="Page-Heading">Jayant Waldia</p>
       <p className="Description">
         code x design, building web apps with{" "}
         <span className="Highlight"> reactjs </span>/

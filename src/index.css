@@ -27,10 +27,9 @@
   margin: auto;
   flex-direction: column;
   padding: 20px;
-
 }
 
-.MyName {
+.Page-Heading {
   font-size: 32px;
   color: white;
   font-family: SpaceGrotesk-Medium;
@@ -212,6 +211,18 @@ img {
   line-height: 1.6;
 
 }
+
+
+
+
+/* ---------------- About ----------------*/
+
+.about-page {
+  font-family: SpaceGrotesk-Regular;
+  color: white;
+
+}
+
 
 @media only screen and (max-width: 600px) {
   .ProjectGrid {
