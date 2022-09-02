@@ -21,6 +21,15 @@
 
 /* ---------------- About Page-----------------*/
 
+.Mainview {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: 'Sora', sans-serif;
+}
+
 .Main {
   color: #ffffff;
   display: flex;
@@ -140,6 +149,7 @@
 
 .nav-link {
   color: rgb(190, 190, 190);
+  text-decoration: none;
 }
 
 .nav-link:hover {

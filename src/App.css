@@ -1,8 +1,0 @@
-.Mainview {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-    margin: 10px auto;
-    padding: 10px;
-    font-family: 'Sora', sans-serif;
-}
