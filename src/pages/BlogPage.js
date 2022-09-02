@@ -7,8 +7,8 @@ function BlogPage() {
     <div className="Main">
       <p className="Page-Heading">Blog </p>
       <p className="Description">
-        Not heavy with words, but here are some thoughts I randomly cross by on
-        the Internet
+        Not heavy with words, but here are some random thoughts I cross by while
+        blaming the interner
       </p>
 
       <NavLink to={"/blog/1"} className="nav-link">
@@ -23,39 +23,28 @@ function BlogPage() {
           </h4>
         </Card>
       </NavLink>
-      <NavLink to={"/blog/1"} className="nav-link">
+      <NavLink to={"/blog/2"} className="nav-link">
         <Card>
-          <p>
+          <h4>
             <img
               style={{ width: "15px", marginRight: "10px" }}
               src={gem}
               alt="blue-gem"
             ></img>
-          </p>
+            Abandon the abundances
+          </h4>
         </Card>
       </NavLink>
-      <NavLink to={"/blog/1"} className="nav-link">
+      <NavLink to={"/blog/3"} className="nav-link">
         <Card>
-          <p>
+          <h4>
             <img
               style={{ width: "15px", marginRight: "10px" }}
               src={gem}
               alt="blue-gem"
             ></img>
-            A career.
-          </p>
-        </Card>
-      </NavLink>
-      <NavLink to={"/blog/1"} className="nav-link">
-        <Card>
-          <p>
-            <img
-              style={{ width: "15px", marginRight: "10px" }}
-              src={gem}
-              alt="blue-gem"
-            ></img>
-            Being Yourself as a career.
-          </p>
+            You're just a monkey with a plan
+          </h4>
         </Card>
       </NavLink>
     </div>

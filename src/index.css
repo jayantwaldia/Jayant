@@ -1,3 +1,18 @@
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(181, 181, 181);
+  border-radius: 50px;
+}
+
+
+
 @font-face {
   font-family: SpaceGrotesk-Light;
   src: url(fonts/SpaceGrotesk-Light.otf);
