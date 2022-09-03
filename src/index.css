@@ -54,6 +54,7 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   animation: fadeIn 2s;
   width: 100%;
+  overflow: hidden;
 }
 
 .Page-Heading {

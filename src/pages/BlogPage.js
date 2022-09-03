@@ -30,7 +30,7 @@ function BlogPage() {
               src={gem}
               alt="blue-gem"
             ></img>
-            Abandon the abundances
+            Abandon the abundance
           </h4>
         </Card>
       </NavLink>
