@@ -53,8 +53,6 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   padding: 20px;
   animation: fadeIn 2s;
-  width: 100%;
-  overflow: hidden;
 }
 
 .Page-Heading {
