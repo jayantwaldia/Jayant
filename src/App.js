@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import BlogPage1 from "./pages/BlogPage1";
 import BlogPage2 from "./pages/BlogPage2";
 import BlogPage3 from "./pages/BlogPage3";
+import BlogPage4 from "./pages/BlogPage4";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/blog/1" element={<BlogPage1 />}></Route>
           <Route exact path="/blog/2" element={<BlogPage2 />}></Route>
           <Route exact path="/blog/3" element={<BlogPage3 />}></Route>
+          <Route exact path="/blog/4" element={<BlogPage4 />}></Route>
           <Route exact path="/about" element={<AboutPage />}></Route>
         </Routes>
       </div>

@@ -5,9 +5,9 @@ import Card from "../shared/Card";
 function BlogPage() {
   return (
     <div className="Main">
-      <p className="Page-Heading">Blog </p>
+      <p className="Page-Heading">Other than tech </p>
       <p className="Description">
-        Not heavy on words, but I lift heavy on these thoughts...
+        Not heavy on words, but I like lifting heavy on some thoughts.
       </p>
 
       <NavLink to={"/blog/1"} className="nav-link">
@@ -54,7 +54,7 @@ function BlogPage() {
               src={gem}
               alt="blue-gem"
             ></img>
-            Himalayas as my Home
+            My Home in Himalayas - An Observation
           </h4>
         </Card>
       </NavLink>
