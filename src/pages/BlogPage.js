@@ -7,8 +7,7 @@ function BlogPage() {
     <div className="Main">
       <p className="Page-Heading">Blog </p>
       <p className="Description">
-        Not heavy with words, but here are some random thoughts I cross by while
-        blaming the interner
+        Not heavy on words, but I lift heavy on these thoughts...
       </p>
 
       <NavLink to={"/blog/1"} className="nav-link">
@@ -43,7 +42,19 @@ function BlogPage() {
               src={gem}
               alt="blue-gem"
             ></img>
-            You're just a monkey with a plan
+            A monkey with a plan
+          </h4>
+        </Card>
+      </NavLink>
+      <NavLink to={"/blog/4"} className="nav-link">
+        <Card>
+          <h4>
+            <img
+              style={{ width: "15px", marginRight: "10px" }}
+              src={gem}
+              alt="blue-gem"
+            ></img>
+            Himalayas as my Home
           </h4>
         </Card>
       </NavLink>

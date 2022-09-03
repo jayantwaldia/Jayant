@@ -1,7 +1,7 @@
 function BlogPage1() {
   return (
     <div className="Main">
-      <p className="Page-Heading">Being Yourself as a career. </p>
+      <p className="Page-Heading">Being Myself as a career. </p>
       <p className="Description">
         The constant compulsion to chase and achieve the ceaseless standards of
         aesthetics on internet is eroding your identity in the most unimaginable

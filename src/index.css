@@ -43,6 +43,7 @@ body::-webkit-scrollbar-thumb {
   margin: 10px auto;
   padding: 10px;
   font-family: 'Sora', sans-serif;
+
 }
 
 .Main {
@@ -51,6 +52,8 @@ body::-webkit-scrollbar-thumb {
   margin: auto;
   flex-direction: column;
   padding: 20px;
+  animation: fadeIn 2s;
+  width: 100%;
 }
 
 .Page-Heading {
