@@ -6,7 +6,7 @@ function AboutPage() {
   return (
     <div className="Main">
       <p className="Page-Heading">About me</p>
-      <p className="Description">----------</p>
+      <p className="Description"></p>
 
       <Card></Card>
     </div>

@@ -14,7 +14,7 @@ function BlogPage() {
         <Card>
           <h4>
             <img
-              style={{ width: "15px", marginRight: "10px" }}
+              style={{ width: "15px", marginRight: "15px" }}
               src={gem}
               alt="blue-gem"
             ></img>
@@ -26,7 +26,7 @@ function BlogPage() {
         <Card>
           <h4>
             <img
-              style={{ width: "15px", marginRight: "10px" }}
+              style={{ width: "15px", marginRight: "15px" }}
               src={gem}
               alt="blue-gem"
             ></img>
@@ -38,7 +38,7 @@ function BlogPage() {
         <Card>
           <h4>
             <img
-              style={{ width: "15px", marginRight: "10px" }}
+              style={{ width: "15px", marginRight: "15px" }}
               src={gem}
               alt="blue-gem"
             ></img>
@@ -50,11 +50,11 @@ function BlogPage() {
         <Card>
           <h4>
             <img
-              style={{ width: "15px", marginRight: "10px" }}
+              style={{ width: "15px", marginRight: "15px" }}
               src={gem}
               alt="blue-gem"
             ></img>
-            My Home in Himalayas - An Observation
+            Himalayas - An Observation
           </h4>
         </Card>
       </NavLink>
