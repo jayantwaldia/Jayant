@@ -8,7 +8,8 @@ export const projectsList = [
     desc: "E-Commerce App that sells clothing products.",
     image: shopdojo,
     stack: "React • useContext + useReducer",
-    link: "",
+    live: "https://shopdojo.vercel.app/",
+    link: "https://github.com/jayantwaldia/Dojo-Shop",
     sourceCode: "",
   },
   {
@@ -17,7 +18,8 @@ export const projectsList = [
     desc: "React app to search Github profiles and repos.",
     image: gitstalk,
     stack: "React • useContext + useReducer",
-    link: "",
+    live: "https://git-stalk.vercel.app/",
+    link: "https://github.com/jayantwaldia/Git-Stalk",
     sourceCode: "",
   },
 ];

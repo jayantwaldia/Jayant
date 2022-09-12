@@ -1,4 +1,5 @@
 import { projectsList } from "../data/projectsList";
+import { FaExternalLinkAlt, FaRegFolderOpen, FaGithub } from "react-icons/fa";
 import Card from "../shared/Card";
 
 function Project() {
@@ -12,7 +13,15 @@ function Project() {
         </p>
       </div>
       <hr></hr>
-      <p>{project.stack}</p>
+      <p style={{ color: "gray" }}>{project.stack}</p>
+      <div className="project-link">
+        <a href={project.live} target="_blank">
+          <FaExternalLinkAlt color="white" />
+        </a>
+        <a href={project.link} target="_blank">
+          <FaGithub size={20} color="white" />
+        </a>
+      </div>
     </Card>
   ));
 

@@ -239,6 +239,11 @@ img {
 
 }
 
+.project-link {
+  display: flex;
+  gap: 20px;
+}
+
 hr {
   border: 0;
   height: 1px;
