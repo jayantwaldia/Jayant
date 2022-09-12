@@ -4,13 +4,15 @@ import Card from "../shared/Card";
 function Project() {
   const listItems = projectsList.map((project) => (
     <Card key={project.id}>
-      <img src={project.image} alt={project.name} />
-      <p>
-        <h3>{project.name}</h3>
-        {" " + project.desc + " "}
-      </p>
+      <div>
+        <img src={project.image} alt={project.name} />
+        <p>
+          <h3>{project.name}</h3>
+          {" " + project.desc + " "}
+        </p>
+      </div>
       <hr></hr>
-      <p>React • useContext + useReducer • MockBee</p>
+      <p>{project.stack}</p>
     </Card>
   ));
 

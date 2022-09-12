@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";
@@ -18,16 +19,6 @@ function Page({ name, source, id }) {
   );
 }
 
-function Social({ name, href, imageSrc }) {
-  return (
-    <div className="Link">
-      <a href={href} target="_blank" rel="noreferrer">
-        <img src={imageSrc} alt={name} />
-      </a>
-    </div>
-  );
-}
-
 export default function Navbar() {
   return (
     <div className="Navbar">
@@ -38,21 +29,33 @@ export default function Navbar() {
           <Page name={"about"} source={"/about"} />
         </div>
         <div className="Links">
-          <Social
-            name={"Jayant's LinkedIn"}
-            href={"https://www.linkedin.com/in/jayantwaldia/"}
-            imageSrc={linkedin}
-          />
-          <Social
-            name={"Jayant's Github"}
-            href={"https://github.com/jayantwaldia/"}
-            imageSrc={github}
-          />
-          <Social
-            name={"Jayant's Twitter"}
-            href={"https://twitter.com/jayantwaldia"}
-            imageSrc={twitter}
-          />
+          <div className="Link">
+            <a
+              href={"https://www.linkedin.com/in/jayantwaldia/"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin size={24} color="white" />
+            </a>
+          </div>
+          <div className="Link">
+            <a
+              href={"https://github.com/jayantwaldia"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub size={24} color="white" />
+            </a>
+          </div>
+          <div className="Link">
+            <a
+              href={"https://twitter.com/jayantwaldia"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter size={24} color="white" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
