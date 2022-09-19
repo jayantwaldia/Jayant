@@ -254,10 +254,19 @@ hr {
 
 /* ---------------- About ----------------*/
 
-.about-page {
-  font-family: SpaceGrotesk-Regular;
-  color: white;
+.profileImg {
+  margin: 20px auto;
+  width: 250px;
+}
 
+.aboutMe {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.aboutMe>a {
+  color: #155AAA;
 }
 
 
