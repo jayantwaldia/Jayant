@@ -1,4 +1,4 @@
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import Card from "../shared/Card";
 import me from "../assets/Me.png";
 
@@ -12,8 +12,10 @@ function AboutPage() {
       </div>
       <Card>
         <p className="aboutMe">
-          I communicate, get things done, ensure standards while striving for
-          developing mutual clarity and objective with teams.
+          Hello! I'm Jayant, <br></br>I ❤️ tech. No, not just coding. I like to
+          communicate, get things done, ensure standards while striving for
+          developing mutual clarity, objective and vibes with teams, friends and
+          family.
           <br></br>
           <br></br>
           Home :{" "}
@@ -46,15 +48,6 @@ function AboutPage() {
               rel="noreferrer"
             >
               <FaInstagram size={24} color="white" />
-            </a>
-          </div>
-          <div className="Link">
-            <a
-              href={"https://twitter.com/jayantwaldia"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaTwitter size={24} color="white" />
             </a>
           </div>
         </div>

@@ -260,9 +260,10 @@ hr {
 }
 
 .aboutMe {
-  font-size: 16px;
-  font-weight: 200;
-  text-align: center;
+  font-size: 18px;
+  font-family: SpaceGrotesk-Light;
+  text-align: left;
+  line-height: 1.8;
 }
 
 .aboutMe>a {

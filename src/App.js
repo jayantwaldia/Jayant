@@ -9,6 +9,7 @@ import BlogPage1 from "./pages/BlogPage1";
 import BlogPage2 from "./pages/BlogPage2";
 import BlogPage3 from "./pages/BlogPage3";
 import BlogPage4 from "./pages/BlogPage4";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
   }, []);
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <div className="Mainview">
         <Routes>
