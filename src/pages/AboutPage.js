@@ -12,10 +12,13 @@ function AboutPage() {
       </div>
       <Card>
         <p className="aboutMe">
-          Hello! I'm Jayant, <br></br>I ❤️ tech. No, not just coding. I like to
-          communicate, get things done, ensure standards while striving for
-          developing mutual clarity, objective and vibes with teams, friends and
-          family.
+          Hello! I'm Jayant Waldia, a Front-end focused developer. I build &
+          break stuff 🔨, write code 👨‍💻, design things 🌈, and create content
+          📌.
+          <br></br>
+          <br></br>I ❤️ tech. No, not just coding. I like to communicate, get
+          things done, and ensure standards while striving for developing mutual
+          clarity, objectives and vibes with teams, friends and family.
           <br></br>
           <br></br>
           Home :{" "}

@@ -4,8 +4,8 @@ function BlogPage1() {
       <p className="Page-Heading">Being Myself as a career. </p>
       <p className="Description">
         The constant compulsion to chase and achieve the ceaseless standards of
-        aesthetics on internet is eroding your identity in the most unimaginable
-        ways possible. <br></br>
+        aesthetics on the internet is eroding your identity in the most
+        unimaginable ways possible. <br></br>
         <br></br>
         <span style={{ color: "white" }}>
           Being Yourself is not an act, it’s a whole damn career.
