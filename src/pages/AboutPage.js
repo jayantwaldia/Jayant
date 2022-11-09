@@ -13,8 +13,7 @@ function AboutPage() {
       <Card>
         <p className="aboutMe">
           Hello! I'm Jayant Waldia, a Front-end focused developer. I build &
-          break stuff 🔨, write code 👨‍💻, design things 🌈, and create content
-          📌.
+          break stuff, write code, design things, and create content 📌.
           <br></br>
           <br></br>I ❤️ tech. No, not just coding. I like to communicate, get
           things done, and ensure standards while striving for developing mutual
