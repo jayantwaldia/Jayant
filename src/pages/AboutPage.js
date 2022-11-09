@@ -13,11 +13,11 @@ function AboutPage() {
       <Card>
         <p className="aboutMe">
           Hello! I'm Jayant Waldia, a Front-end focused developer. I build &
-          break stuff, write code, design things, and create content 📌.
+          break stuff, write code, design things, and create content.
           <br></br>
-          <br></br>I ❤️ tech. No, not just coding. I like to communicate, get
-          things done, and ensure standards while striving for developing mutual
-          clarity, objectives and vibes with teams, friends and family.
+          <br></br>I like to communicate, get things done, and ensure standards
+          while striving for developing [mutual clarity, objectives, vibes] =
+          [teams, friends, family].
           <br></br>
           <br></br>
           Home :{" "}
@@ -25,6 +25,7 @@ function AboutPage() {
             href="https://goo.gl/maps/Y67kmXTPHr3uCWZD7"
             target="_blank"
             rel="noreferrer"
+            style={{ color: "white" }}
           >
             Pithoragarh
           </a>
@@ -34,9 +35,11 @@ function AboutPage() {
             href="https://goo.gl/maps/ceoQHDm8knPdSMh38"
             target="_blank"
             rel="noreferrer"
+            style={{ color: "white" }}
           >
             Noida
-          </a>
+          </a>{" "}
+          📌
           <br></br>
           <br></br>
         </p>
