@@ -16,8 +16,8 @@ function AboutPage() {
           break stuff, write code, design things, and create content.
           <br></br>
           <br></br>I like to communicate, get things done, and ensure standards
-          while striving for developing [mutual clarity, objectives, vibes] =
-          [teams, friends, family].
+          while striving for developing mutual clarity, objectives and relations
+          with teams, friends and family.
           <br></br>
           <br></br>
           Home :{" "}
